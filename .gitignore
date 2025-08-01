@@ -1,0 +1,16 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VSCode 工作区
+.vscode/
+
+# 日志文件
+*.log
+
+# Jupyter notebook 检查点
+.ipynb_checkpoints/
+
+# 输出结果
+outputs/
