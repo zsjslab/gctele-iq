@@ -1,0 +1,1042 @@
+[
+    {
+        "category": "Communication Principles & Network Fundamentals",
+        "Type": "SCQ",
+        "question": "在核心网中，负责将用户的语音或数据信号进行编码、加密等处理的功能模块通常属于？",
+        "options": [
+            "A、接入网部分​",
+            "B、传输网部分​",
+            "C、用户面功能​",
+            "D、控制面功能"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "Communication Principles & Network Fundamentals",
+        "Type": "SCQ",
+        "question": "以下哪项是衡量数据传输速率的基本单位？",
+        "options": [
+            "A、Hz (赫兹)",
+            "B、Byte (字节)",
+            "C、bps (比特每秒)",
+            "D、Volt (伏特)"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "Market Landscape & Strategic Orientation",
+        "Type": "SCQ",
+        "question": "中国移动主动融入和服务国家战略，全力建设“（ ）”，努力畅通经济社会发展“大动脉”，高质量运营“（ ）”，全力支撑经济社会（ ）转型。",
+        "options": [
+            "A、信息高速；信息高铁；数字化",
+            "B、数字高速；数字高铁；数智化",
+            "C、互联高速；互联高铁；智能化",
+            "D、科技高速；科技高铁；科技化"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "Market Landscape & Strategic Orientation",
+        "Type": "SCQ",
+        "question": "关于中国联通的“云网融合”战略，下列说法正确的是？",
+        "options": [
+            "A、云网融合是指将云计算能力与传统固话网络紧密结合",
+            "B、云网融合旨在打造智能、灵活、安全的一体化新型信息基础设施",
+            "C、云网融合仅强调了数据中心间的高速互联，不包括无线接入网络",
+            "D、云网融合主要应用于解决个人用户的娱乐需求"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Market Landscape & Strategic Orientation",
+        "Type": "SCQ",
+        "question": "世界电信日为每年的（）",
+        "options": [
+            "A、5月15日",
+            "B、5月17日",
+            "C、5月18日",
+            "D、5月19日"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Market Landscape & Strategic Orientation",
+        "Type": "SCQ",
+        "question": "中国电信提出的战略转型3.0的主要方向不包括？",
+        "options": [
+            "A、回归传统固话业务",
+            "B、网络智能化",
+            "C、业务生态化",
+            "D、运营智慧化"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "Operational Processes & Support Systems - AC",
+        "Type": "SCQ",
+        "question": "在采集服务与采控框架的数据处理流程中，以下哪项描述最准确地概括了数据的流向和处理方式？",
+        "options": [
+            "A、 采集服务将原始告警数据和归一化数据混合写入资源中心的同一个消息队列主题。",
+            "B、 采控框架不监听资源中心的消息队列主题，而是直接从采集服务获取数据。",
+            "C、 采集服务将原始告警数据和归一化数据分别写入资源中心的不同消息队列主题，采控框架实时监听这些主题，并按照上层需求对数据进行进一步处理后，写入资源中心指定消息队列主题或库表。",
+            "D、 采控框架仅对原始告警数据进行处理，忽略归一化数据。"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "Operational Processes & Support Systems - AC",
+        "Type": "SCQ",
+        "question": "关于 API 权限控制，以下哪项描述最准确地概括了其核心功能和实现方式？",
+        "options": [
+            "A、 API 权限控制允许所有 API 调用方无限制地调用 API，不需要任何权限验证。",
+            "B、 API 权限控制通过为 API 调用方分配调用权限来控制其访问，未授权的调用方将调用失败。系统使用静态令牌作为唯一的权限验证方式。",
+            "C、 API 权限控制通过为 API 调用方分配调用权限来控制其访问，未授权的调用方将调用失败。系统可以使用静态令牌或动态令牌来进行权限的验证与控制。",
+            "D、 API 权限控制仅允许特定的 API 调用方使用动态令牌进行权限验证，静态令牌不被支持。"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "Operational Processes & Support Systems - AC",
+        "Type": "SCQ",
+        "question": "指令信息传递分为直接传递和预先缓存两种模式，当指令信息大于（ ）时，将采用预先缓存模式。",
+        "options": [
+            "A、4M",
+            "B、5M",
+            "C、3M",
+            "D、2M"
+        ],
+        "answer": "D"
+    },
+    {
+        "category": "Operational Processes & Support Systems - AC",
+        "Type": "SCQ",
+        "question": "控制服务主要是接收控制框架派发的（ ），实现与网元的连接和交互。",
+        "options": [
+            "A、实指令",
+            "B、虚指令集",
+            "C、虚指令",
+            "D、API"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "Operational Processes & Support Systems - AC",
+        "Type": "SCQ",
+        "question": "PON系统支持的业务类型不包括以下哪项？",
+        "options": [
+            "A、 宽带接入 ",
+            "B、 有线电视 ",
+            "C、 手机信号传输 ",
+            "D、 云计算服务"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "Operational Processes & Support Systems - AC",
+        "Type": "SCQ",
+        "question": "在 RES.API 调用的时候，根据业务号码或卡号自定义划成多段，对应到具体的网元，这种路由方式为？",
+        "options": [
+            "A、区域路由",
+            "B、号段路由",
+            "C、规则路由",
+            "D、指定路由"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Operational Processes & Support Systems - AC",
+        "Type": "SCQ",
+        "question": "关于调度分发与采集任务的关系，以下哪项描述是正确的？",
+        "options": [
+            "A、 调度分发根据采集策略生成采集任务项，并将每个采集任务分发到任意采集服务实例上。",
+            "B、 调度分发只负责生成采集任务项，不负责将采集任务分发到采集服务实例。",
+            "C、 每个（批）采集源的每一次采集，不作为一个采集任务来处理。",
+            "D、 调度分发根据采集策略生成采集任务项，再将每个采集任务分发到合适的采集服务实例上，且一条多个采集源的采集策略将生成多个并发的采集任务。"
+        ],
+        "answer": "D"
+    },
+    {
+        "category": "Operational Processes & Support Systems - AC",
+        "Type": "SCQ",
+        "question": "云数据采用以下哪种技术实现云主机二层互通？",
+        "options": [
+            "A、MSTP     ",
+            "B、GRE     ",
+            "C、SRv6     ",
+            "D、Vxlan"
+        ],
+        "answer": "D"
+    },
+    {
+        "category": "Operational Processes & Support Systems - CS",
+        "Type": "SCQ",
+        "question": "智能待办功能主要作用是什么？",
+        "options": [
+            "A、自动生成业务报表并发送给管理层",
+            "B、对用户的业务办理申请进行审核",
+            "C、自动生成待办任务并根据约定时间设定提醒时间",
+            "D、统计用户的业务使用频率"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "Operational Processes & Support Systems - CS",
+        "Type": "SCQ",
+        "question": "张先生来电对号码账单产生的其他收费业务有疑问，坐席可通过系统哪个位置查询是否有使用话费支付的非电信业务产品（ ）",
+        "options": [
+            "A、用户基本信息界面",
+            "B、增值业务查询模块",
+            "C、话费详单明细页",
+            "D、套餐内容展示区"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Operational Processes & Support Systems - CS",
+        "Type": "SCQ",
+        "question": "在处理用户要求更改套餐的工单时，以下哪些步骤是非必要的？",
+        "options": [
+            "A、询问用户更改套餐原因",
+            "B、查询用户套餐类型及是否为靓号",
+            "C、直接更改至最低档套餐",
+            "D、根据用户消费情况推荐平档或高档套餐"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "Operational Processes & Support Systems - CS",
+        "Type": "SCQ",
+        "question": "关于5G资费政策的最新要求，不正确的是？",
+        "options": [
+            "A、 运营商需公示套餐详情",
+            "B、 自动续订需用户二次确认",
+            "C、 流量超套可自定义封顶阈值",
+            "D、 营销活动可默认开通"
+        ],
+        "answer": "D"
+    },
+    {
+        "category": "Operational Processes & Support Systems - CS",
+        "Type": "SCQ",
+        "question": "对于显示 “低风险” 的号码，复机时需要做什么？",
+        "options": [
+            "A、查看停机类型及停机次数后再推送活检短信",
+            "B、直接推送活检短信及数字人进行线上认证",
+            "C、要求用户携带证件到营业厅办理复机",
+            "D、联系人工客服审核后复机"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Operational Processes & Support Systems - CS",
+        "Type": "SCQ",
+        "question": "政企用户去营业厅复机时，需要携带哪些证件？",
+        "options": [
+            "A、单位公章、经办人身份证复印件",
+            "B、单位有效证件（或单位营业执照截图）、加盖公章的单位号码用途说明书，使用人身份证原件及号卡",
+            "C、单位介绍信、营业执照原件",
+            "D、单位法人身份证、号卡"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Operational Processes & Support Systems - CS",
+        "Type": "SCQ",
+        "question": "赵先生来电退订电视会员，坐席应验证（ ）信息后进行退订",
+        "options": [
+            "A、用户姓名",
+            "B、服务密码或身份证号",
+            "C、用户家庭住址",
+            "D、用户手机号码归属地"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Operational Processes & Support Systems - CS",
+        "Type": "SCQ",
+        "question": "坐席通过系统为用户进行积分兑换流量包时，注意事项说法错误的是（ ）",
+        "options": [
+            "A、确认用户积分余额充足",
+            "B、告知用户流量包生效时间",
+            "C、提醒用户流量包使用规则",
+            "D、向用户说明该流量包具备提速作用"
+        ],
+        "answer": "D"
+    },
+    {
+        "category": "Operational Processes & Support Systems - OS",
+        "Type": "SCQ",
+        "question": "什么是目前宽带最宽的传输介质？",
+        "options": [
+            "A、铜轴电缆 ",
+            "B、双绞线 ",
+            "C、电话线 ",
+            "D、光纤"
+        ],
+        "answer": "D"
+    },
+    {
+        "category": "Operational Processes & Support Systems - OS",
+        "Type": "SCQ",
+        "question": "装维人员反馈：“新安装的设备，宽带上网功能正常，但组播业务无法拨号。” 此反馈主要指向以下哪个意图？",
+        "options": [
+            "A、 无法上网",
+            "B、 拨号失败",
+            "C、 激活异常",
+            "D、 单组播黑屏及花屏"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Operational Processes & Support Systems - OS",
+        "Type": "SCQ",
+        "question": "FTTH顾客投诉上网故障，维修人员到现场后发现LOS批示灯慢闪（1次/2秒），请问此状态旳含义是？",
+        "options": [
+            "A、ONT正在试图注册中 ",
+            "B、ONT被OLT去激活 ",
+            "C、ONT接受光功率低于光接受敏捷度 ",
+            "D、ONT发光异常"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "Operational Processes & Support Systems - OS",
+        "Type": "SCQ",
+        "question": "一线装维人员向后端支撑反映用户问题：“师傅，麻烦帮忙看一下，这个用户反馈说他家网络质量很差。”该问题最优先对应哪个标签？",
+        "options": [
+            "A、无法上网",
+            "B、有线测速问题",
+            "C、上网卡顿",
+            "D、无线测速不达标问题"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "Operational Processes & Support Systems - OS",
+        "Type": "SCQ",
+        "question": "用户没有固话使用需求，但有上网和IPTV业务需求，并且希望手机和平板电脑可以连接WiFi上网，以下哪种方式可以满足用户需求？",
+        "options": [
+            "A、不带POTS口的HGU设备，宽带业务采用桥接WAN连接 ",
+            "B、不带POTS口的HGU设备，宽带业务采用路由WAN连接 ",
+            "C、带POTS口的HGU设备，宽带业务采用路由WAN连接 ",
+            "D、SFU设备，二层上网方式"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Operational Processes & Support Systems - OS",
+        "Type": "SCQ",
+        "question": "在分析家宽用户上网质量时，经常会涉及到TCP/HTTP等协议层面的指标，以下哪个指标直接反映了网页或应用访问的快慢体验？",
+        "options": [
+            "A、 TCP连接成功率",
+            "B、 HTTP响应时延",
+            "C、 RADIUS认证成功率",
+            "D、 PON口在线用户数"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Operational Processes & Support Systems - OS",
+        "Type": "SCQ",
+        "question": "某客户家庭宽带从 A 小区搬迁至 B 小区（由不同的 OLT 覆盖）后宽带连接拨号时提示 691 错误代码，但是上门使用测试账号能正常拨号上网，确认客户账号密码输入正确，通过互联网感知服务平台查询认证信息查询账号不在线。最可能的原因是？",
+        "options": [
+            "A、账号被盗用 ",
+            "B、账号到期 ",
+            "C、账号的密码被更改，需重置 ",
+            "D、账号绑定在原有端口，需要重新绑定"
+        ],
+        "answer": "D"
+    },
+    {
+        "category": "Operational Processes & Support Systems - OS",
+        "Type": "SCQ",
+        "question": "装维人员在跟进一个宽带业务时，向支撑系统或人员发起请求：“麻烦帮忙查一下这个宽带具体安装在哪里？”此请求最核心的意图应归类为？",
+        "options": [
+            "A、 查覆盖范围",
+            "B、 查工单信息",
+            "C、 209或账号信息或开户信息",
+            "D、 查宽带在线状态"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "SCQ",
+        "question": "下列哪项是运营商提供的增值服务？",
+        "options": [
+            "A、基本通话服务 ",
+            "B、基本短信服务 ",
+            "C、彩铃服务 ",
+            "D、来电显示服务"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "SCQ",
+        "question": "哪个运营商最先在中国大规模商用 VoLTE？",
+        "options": [
+            "A、 中国移动",
+            "B、 中国联通",
+            "C、 中国电信",
+            "D、 中国广电"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "SCQ",
+        "question": "针对定向流量套餐，下面的哪个描述是准确的？",
+        "options": [
+            "A、只要客户选择了定向流量套餐，使用公众APN的流量可以纳入定向流量套餐优惠。 ",
+            "B、定向流量套餐需先组建VPDN网络，特定APN只能拨入某企业的VPDN网络。 ",
+            "C、专属行业应用定向流量套餐，只要在营帐可见就可直接使用，无需再进行套餐申报。 ",
+            "D、 任何定向流量套餐均需要通过省公司向总部申报，且总部批复同意后才能使用。"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "SCQ",
+        "question": "关于运营商的漫游服务，以下哪项描述是正确的？",
+        "options": [
+            "A、 在不同城市使用固定电话 ",
+            "B、 在不同国家使用移动电话 ",
+            "C、 在同一城市内使用移动电话 ",
+            "D、 在不同运营商之间使用移动电话"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "SCQ",
+        "question": "运营商提供的哪种服务是基于 IP 技术的？",
+        "options": [
+            "A、固定电话服务 ",
+            "B、移动数据服务 ",
+            "C、卫星电视服务 ",
+            "D、数字电视服务"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "SCQ",
+        "question": "中国联通在云计算领域推出了哪一品牌产品来为企业客户提供云服务？",
+        "options": [
+            "A、天翼云",
+            "B、沃云",
+            "C、和彩云",
+            "D、阿里云"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "SCQ",
+        "question": "以下哪个不是运营商的主要业务？",
+        "options": [
+            "A、 语音通信服务",
+            "B、 宽带接入服务",
+            "C、 卫星导航服务",
+            "D、 移动数据服务"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "SCQ",
+        "question": "中国电信“三千兆”服务指的是？",
+        "options": [
+            "A、千兆光纤、千兆下载速度、千兆上传速度",
+            "B、千兆路由器、千兆网络接口、千兆内存",
+            "C、千兆5G、千兆宽带、千兆WIFI",
+            "D、千兆比特/秒、千兆赫兹、千兆用户数"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "SCQ",
+        "question": "VoLTE技术主要优化了移动用户的哪项体验？",
+        "options": [
+            "A、高清语音通话",
+            "B、手机上网速度",
+            "C、短信收发",
+            "D、国际漫游资费"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "Strategic Emerging Technology Trends",
+        "Type": "SCQ",
+        "question": "开通手机直连卫星功能后，欠费停机时是否可以拨打紧急电话？",
+        "options": [
+            "A、可以，支持拨打110、119、120、122等标准紧急号码",
+            "B、不可以，欠费停机后所有通信功能均会中断",
+            "C、仅能拨打国际通用的卫星紧急求救号码",
+            "D、仅能在有地面网络覆盖时拨打紧急电话"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "Strategic Emerging Technology Trends",
+        "Type": "SCQ",
+        "question": "移动边缘计算（MEC）作为运营商赋能垂直行业的重要技术手段，其最能满足下列哪一类应用场景的需求？",
+        "options": [
+            "A、 跨国公司的全球高清视频会议",
+            "B、 需要超低时延和高带宽支持的AR/VR远程协作或云游戏",
+            "C、 偏远地区用户的基本网页浏览和即时通讯",
+            "D、 大规模物联网设备的固件批量空中升级"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Strategic Emerging Technology Trends",
+        "Type": "SCQ",
+        "question": "在智算时代，运营商积极部署 G.654.E 光纤的主要战略意义在于？",
+        "options": [
+            "A、全面替代现有网络中的 G.652.D 光纤，以实现网络架构的统一",
+            "B、支撑 400G/800G 及未来更高速率的超长距光传输系统和智算中心间光互联",
+            "C、降低对有源中继设备的依赖，从而大幅削减网络的整体运营成本",
+            "D、提升 5G 无线网络的覆盖范围和信号强度，改善移动用户体验"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Strategic Emerging Technology Trends",
+        "Type": "SCQ",
+        "question": "用户如何享受直连卫星业务？",
+        "options": [
+            "A、仅能订购手机直连卫星功能",
+            "B、仅能直接订购卫星语音包",
+            "C、可以通过订购手机直连卫星功能或直接订购卫星语音包",
+            "D、必须更换为专用卫星电话终端"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "Strategic Emerging Technology Trends",
+        "Type": "SCQ",
+        "question": "以下哪种用户可以订购量子密话功能包？",
+        "options": [
+            "A、订购天翼畅享（达量降速版）套餐用户",
+            "B、订购了畅享升级包（达量限速版）的用户",
+            "C、除订购天翼畅享（达量降速版）套餐以及订购了畅享升级包（达量限速版）之外的其他用户",
+            "D、所有运营商用户均可直接订购"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "Strategic Emerging Technology Trends",
+        "Type": "SCQ",
+        "question": "“算网一体”战略下，运营商致力于将算力打造成何种服务形态？",
+        "options": [
+            "A、 高度集中的超级计算",
+            "B、 类似水电的泛在服务",
+            "C、 终端侧的离线计算",
+            "D、 纯粹的存储资源池"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Strategic Emerging Technology Trends",
+        "Type": "SCQ",
+        "question": "下列哪项技术是当前运营商在探索量子安全通信中的核心应用？",
+        "options": [
+            "A、 量子传感",
+            "B、 量子图像处理",
+            "C、 量子密钥分发",
+            "D、 量子搜索算法"
+        ],
+        "answer": "C"
+    },
+    {
+        "category": "Communication Principles & Network Fundamentals",
+        "Type": "MCQ",
+        "question": "影响WIFI质量的因素有？",
+        "options": [
+            "A、发射功率",
+            "B、协议标准",
+            "C、天线数量",
+            "D、距离和位置"
+        ],
+        "answer": "A、 B、C、D"
+    },
+    {
+        "category": "Communication Principles & Network Fundamentals",
+        "Type": "MCQ",
+        "question": "移动蜂窝技术的基本特征是？",
+        "options": [
+            "A、基站在一定范围内可以频率复用",
+            "B、移动台在移动中可以进行切换",
+            "C、移动台在不同地区可以漫游接入",
+            "D、分裂小区可以增加系统容量"
+        ],
+        "answer": "A、B、C、D"
+    },
+    {
+        "category": "Market Landscape & Strategic Orientation",
+        "Type": "MCQ",
+        "question": "运营商在提供服务时，需要遵守哪些法律法规？",
+        "options": [
+            "A、 电信法",
+            "B、 反垄断法",
+            "C、 消费者权益保护法",
+            "D、 网络安全法"
+        ],
+        "answer": "A、B、C、D"
+    },
+    {
+        "category": "Market Landscape & Strategic Orientation",
+        "Type": "MCQ",
+        "question": "运营商加入视频监控服务市场领域后，视频监控市场发生了哪些变化？",
+        "options": [
+            "A、 从安防集成商、工程商占据绝大部分市场份额的情况，向以运营商为市场主导力量的情况转变",
+            "B、 从为用户以项目方式建设视频监控系统，向线路、设备、安装及租赁服务统一打包提供给用户的模式转变",
+            "C、 视频监控、视频直播、视频分享、视频培训等业务将逐渐变成电信运营商的主营业务",
+            "D、 普通的安防监控厂家，必须与运营商合作，才能开展网络视频监控"
+        ],
+        "answer": "A、B、C"
+    },
+    {
+        "category": "Operational Processes & Support Systems - AC",
+        "Type": "MCQ",
+        "question": "关于采集服务与采控框架的交互及其管理功能，以下哪些描述是正确的？",
+        "options": [
+            "A、采集服务会按照集成接口的要求上报性能（环境）数据给采控框架。",
+            "B、采集服务只会上报心跳数据给采控框架，以证明其在线状态。",
+            "C、指令执行情况数据也是采集服务需要上报给采控框架的重要信息之一。",
+            "D、采控框架能够统一呈现采集服务上报的各类数据。"
+        ],
+        "answer": "A、C、D"
+    },
+    {
+        "category": "Operational Processes & Support Systems - AC",
+        "Type": "MCQ",
+        "question": "采控框架按照上层数据处理要求，由数据加工处理模块对数据进行哪些处理？",
+        "options": [
+            "A、稽核",
+            "B、比对",
+            "C、打标",
+            "D、模转"
+        ],
+        "answer": "A、B、C、D"
+    },
+    {
+        "category": "Operational Processes & Support Systems - AC",
+        "Type": "MCQ",
+        "question": "采集服务应识别和上报的告警类型包含哪些？",
+        "options": [
+            "A、服务异常",
+            "B、网元异常",
+            "C、组件异常",
+            "D、解析处理异常"
+        ],
+        "answer": "A、B、C、D"
+    },
+    {
+        "category": "Operational Processes & Support Systems - AC",
+        "Type": "MCQ",
+        "question": "算力网络的服务类型包括哪些？",
+        "options": [
+            "A、 弹性算力云平台 ",
+            "B、 算力交易平台 ",
+            "C、 训练平台 ",
+            "D、 AIOS"
+        ],
+        "answer": "A、B、C、D"
+    },
+    {
+        "category": "Operational Processes & Support Systems - AC",
+        "Type": "MCQ",
+        "question": "采集/控制接口监控的状态包括以下哪些内容？每类状态均需由采控框架周期性探测。",
+        "options": [
+            "A、服务状态",
+            "B、TELNET 状态",
+            "C、协议连通状态",
+            "D、PING 状态"
+        ],
+        "answer": "B、C、D"
+    },
+    {
+        "category": "Operational Processes & Support Systems - CS",
+        "Type": "MCQ",
+        "question": "关于在线为用户续约套餐优惠时验证规范说法正确的有（ ）",
+        "options": [
+            "A、本机无需验证，但需向受理号码下发确认短信，并回复数字 “1”",
+            "B、他机验证姓氏 + 证件号码后四位，需向受理号码下发确认短信，并回复数字 “1”",
+            "C、本机需验证服务密码",
+            "D、他机无需任何验证"
+        ],
+        "answer": "A、B"
+    },
+    {
+        "category": "Operational Processes & Support Systems - CS",
+        "Type": "MCQ",
+        "question": "客户可通过哪些电子渠道查询或退订业务？",
+        "options": [
+            "A、短信营业厅",
+            "B、WAP掌上营业厅",
+            "C、手机邮箱",
+            "D、热线电话"
+        ],
+        "answer": "A、B、C"
+    },
+    {
+        "category": "Operational Processes & Support Systems - CS",
+        "Type": "MCQ",
+        "question": "在查询号码协议时，以下哪些情况需要验证机主姓氏＋身份证后四位 / 服务密码？",
+        "options": [
+            "A、本机查询",
+            "B、合账他机查询",
+            "C、非合账他机查询",
+            "D、任何情况都不需要验证"
+        ],
+        "answer": "B、C"
+    },
+    {
+        "category": "Operational Processes & Support Systems - CS",
+        "Type": "MCQ",
+        "question": "处理已停售套餐查询时，客服的正确操作包含哪些？",
+        "options": [
+            "A、说明已停售套餐可历史查询",
+            "B、建议升级最新套餐",
+            "C、转接市场部核实",
+            "D、承诺恢复办理权限"
+        ],
+        "answer": "A、B"
+    },
+    {
+        "category": "Operational Processes & Support Systems - CS",
+        "Type": "MCQ",
+        "question": "客户投诉工单处理的基本原则包括？",
+        "options": [
+            "A、 限时办结",
+            "B、 诚实信用",
+            "C、 重大性优先",
+            "D、 公开处理过程"
+        ],
+        "answer": "A、B、C"
+    },
+    {
+        "category": "Operational Processes & Support Systems - OS",
+        "Type": "MCQ",
+        "question": "光猫不能正常注册有可能出现的原因？",
+        "options": [
+            "A、LOID录入不正确 ",
+            "B、光路不正确或故障 ",
+            "C、网管数据配置错误 ",
+            "D、光猫不需要注册"
+        ],
+        "answer": "A、B、C"
+    },
+    {
+        "category": "Operational Processes & Support Systems - OS",
+        "Type": "MCQ",
+        "question": "宽带装移机开通流程中资源管理中心分配装机资源包括？",
+        "options": [
+            "A、预占设备 ",
+            "B、预占端口 ",
+            "C、LOID号 ",
+            "D、用户地址"
+        ],
+        "answer": "A、B、C"
+    },
+    {
+        "category": "Operational Processes & Support Systems - OS",
+        "Type": "MCQ",
+        "question": "FTTH用户，光纤猫上红灯闪烁，有可能造成这种问题的原因可能是？",
+        "options": [
+            "A、光纤线断 ",
+            "B、光纤头损坏 ",
+            "C、没有激活光猫 ",
+            "D、激活码输入不正确"
+        ],
+        "answer": "A、B"
+    },
+    {
+        "category": "Operational Processes & Support Systems - OS",
+        "Type": "MCQ",
+        "question": "在家庭宽带用户投诉处理中，属于网络侧的故障的有哪些？",
+        "options": [
+            "A、无线路由器故障 ",
+            "B、ONU设备故障 ",
+            "C、BAN箱电源故障 ",
+            "D、接入光缆尾纤故障"
+        ],
+        "answer": "B、C、D"
+    },
+    {
+        "category": "Operational Processes & Support Systems - OS",
+        "Type": "MCQ",
+        "question": "以下列出了若干故障现象及其可能的故障分类，请选择所有描述与分类匹配正确的选项组合：",
+        "options": [
+            "A、 现象：用户反馈无法收看所有直播电视频道。→分类：无法观看直播",
+            "B、 现象：装维人员请求协助催促一个装机工单的退回流程。→分类：投诉退单",
+            "C、 现象：使用的是双口光猫设备，但无法成功拨号上网。→分类：拨号失败",
+            "D、 现象：需要查询用户在现场登记的联系手机号码。→分类：修改联系号码"
+        ],
+        "answer": "A、C"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "MCQ",
+        "question": "目前运营商主要部署的话音网络类型有哪些？",
+        "options": [
+            "A、移动VoLTE IMS网",
+            "B、固网VoBB IMS网",
+            "C、PSTN交换网",
+            "D、C 网/G 网电路域网"
+        ],
+        "answer": "A、B、C、D"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "MCQ",
+        "question": "云计算按照服务类型大致可分为以下几类？",
+        "options": [
+            "A、 IaaS",
+            "B、 PaaS",
+            "C、 SaaS",
+            "D、 OaaS"
+        ],
+        "answer": "A、B、C"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "MCQ",
+        "question": "以下哪些属于短信业务的分类？",
+        "options": [
+            "A、 点对点短信 ",
+            "B、 行业短信 ",
+            "C、 5G消息 ",
+            "D、 多媒体彩信"
+        ],
+        "answer": "A、B、C"
+    },
+    {
+        "category": "Strategic Emerging Technology Trends",
+        "Type": "MCQ",
+        "question": "手机直连卫星业务适用于哪些场景？",
+        "options": [
+            "A、森林",
+            "B、沙漠",
+            "C、海洋",
+            "D、城市中心"
+        ],
+        "answer": "A、B、C"
+    },
+    {
+        "category": "Strategic Emerging Technology Trends",
+        "Type": "MCQ",
+        "question": "用户如何享受直连卫星业务？",
+        "options": [
+            "A、订购手机直连卫星功能",
+            "B、订购卫星语音包",
+            "C、开通国际漫游服务",
+            "D、购买数据流量包"
+        ],
+        "answer": "A、B"
+    },
+    {
+        "category": "Strategic Emerging Technology Trends",
+        "Type": "MCQ",
+        "question": "以下哪些情况会导致用户无法订购量子密话密信业务？",
+        "options": [
+            "A、订购了天翼畅享（达量降速版）套餐",
+            "B、订购了畅享升级包（达量限速版）",
+            "C、手机系统类型",
+            "D、是否支持 NFC 功能"
+        ],
+        "answer": "A、B"
+    },
+    {
+        "category": "Communication Principles & Network Fundamentals",
+        "Type": "TFQ",
+        "question": "移动通信网的信道有控制信道和业务信道两大类。",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "Market Landscape & Strategic Orientation",
+        "Type": "TFQ",
+        "question": "中国移动的低空经济布局包括“四驱两翼”能力体系，涵盖终端、网络、平台和应用。​",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "Market Landscape & Strategic Orientation",
+        "Type": "TFQ",
+        "question": "​​中国联通的网络安全现代产业链“共链行动”未涉及人工智能领域。​",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Operational Processes & Support Systems - AC",
+        "Type": "TFQ",
+        "question": "私有云只能部署在本地机房。",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Operational Processes & Support Systems - AC",
+        "Type": "TFQ",
+        "question": "网元自动发现能力必须由控制插件实现。",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Operational Processes & Support Systems - CS",
+        "Type": "TFQ",
+        "question": "推荐套餐时，可以低于用户的最低消费介绍套餐内容",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Operational Processes & Support Systems - CS",
+        "Type": "TFQ",
+        "question": "号卡激活之后，宽带竣工之前，用户可以自助申请退款",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Operational Processes & Support Systems - OS",
+        "Type": "TFQ",
+        "question": "割接追单处理会导致已分配资源被释放并重新核配。",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "Operational Processes & Support Systems - OS",
+        "Type": "TFQ",
+        "question": "同一PON口下，各个ONU之间是互通的。",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "TFQ",
+        "question": "政企OTN专线与普通OTN专线的主要区别在于使用了具有更高传输容量的OTN设备。",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "TFQ",
+        "question": "中国移动的云计算业务主要为企业提供云服务。",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "TFQ",
+        "question": "VoNR是5G语音解决方案，不再需要回落到4G网络。",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "Strategic Emerging Technology Trends",
+        "Type": "TFQ",
+        "question": "运营商推动的绿色低碳网络技术，其核心策略是通过引入AI智能节能、新型制冷技术和高能效设备，在保障网络性能和用户体验的前提下，最大限度降低网络运营能耗。",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "answer": "A"
+    },
+    {
+        "category": "Strategic Emerging Technology Trends",
+        "Type": "TFQ",
+        "question": "在6G“空天地一体化”的演进方向下，随着卫星通信技术的成熟，地面蜂窝网络的复杂层级结构（如宏基站、微基站）将被统一的卫星接入层所取代，以简化网络管理。",
+        "options": [
+            "A、正确",
+            "B、错误"
+        ],
+        "answer": "B"
+    },
+    {
+        "category": "Communication Principles & Network Fundamentals",
+        "Type": "QA",
+        "question": "简述光纤和铜缆作为有线网络传输介质的主要优缺点。",
+        "answer": "光纤的主要优点是传输速度快、带宽大、抗干扰能力强、传输距离远；缺点可能在于成本相对较高、铺设和维护技术要求高等。铜缆的主要优点是成本相对较低；缺点是传输距离和带宽有限，速度相对较慢，易受干扰。"
+    },
+    {
+        "category": "Communication Principles & Network Fundamentals",
+        "Type": "QA",
+        "question": "请解释“信令网”的含义。",
+        "answer": "信令是通信过程中控制呼叫建立、释放、路由选择等操作的指令和消息。它确保了通信设备之间能够准确、快速地进行信息交互，以实现各种通信业务。信令网是传递信令信息的网络。"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "QA",
+        "question": "请解释“FTTH”的含义。",
+        "answer": "FTTH (Fiber To The Home)即光纤到户，是一种将光纤直接铺设到用户家庭内部的PON接入应用场景，为用户提供超高速的宽带接入服务。"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "QA",
+        "question": "请简要介绍下行链路和上行链路在移动通信网络中的作用。",
+        "answer": "下行链路是指数据从基站发送到手机的传输方向，主要用于向用户提供网络和服务的信息。上行链路是指数据从手机发送到基站的传输方向，主要用于用户上传数据和请求服务。"
+    },
+    {
+        "category": "Product Business & Service System",
+        "Type": "QA",
+        "question": "什么是DIA专线？它有哪些主要特点和应用场景？",
+        "answer": "DIA专线（Dedicated Internet Access）是企业级固定带宽专线服务，提供上下行对称带宽与SLA保障，常用于数据中心互联、视频会议等场景。"
+    },
+    {
+        "category": "Operational Processes & Support Systems - AC",
+        "Type": "CSQ",
+        "question": "在云专网3.0PON接入场景，IP城域网MSE设备配置新增开通控制指令下发过程中，控制框架收到控制服务返回接口已存在报错应该怎么处理？",
+        "answer": "控制框架接收控制服务返回接口已存在的报错后，首先对返回结果进行判断和识别，识别到错误类型位端口已存在报错，然后按照与上游系统约定好的格式构造错误编码和错误内容描述，最后调用上游系统的回单接口回复构造的内容。"
+    },
+    {
+        "category": "Operational Processes & Support Systems - CS",
+        "Type": "CSQ",
+        "question": "案例：宽带上网故障处理\n【案例背景】\n某用户反映其家庭宽带频繁出现断线现象，通过拨打客服电话接入人工服务。客服人员查询系统后发现，该用户宽带状态显示“正常”。\n\n【问题】在此情况下，应如何进一步排查该用户的宽带断线问题？请列出需采集的关键信息及处理流程。",
+        "answer": "1）指导用户重启光猫并观察指示灯 \n2）询问断线时间段/频率/受影响设备 ，定位是否终端设备问题\n3）通过宽带无法上网智慧诊断或端到端测试工具进行在线诊断\n4） 若以上无法解决客户问题，则在线受理故障单，派单后端人员预约上门检测。"
+    },
+    {
+        "category": "Operational Processes & Support Systems - OS",
+        "Type": "CSQ",
+        "question": "案例：装维问题工单数据分析\n\n【案例背景】某省级电信运营商2024年11月2日当天产生的装维问题工单共1500单，其中通过装维智能助理处理的工单为513单，其余工单（987单）均由人工处理。装维工单问题核心数据信息如下：\n表一：主要问题类型分布\n| 问题分类 | 工单数量 |\n| ------ | ------ |\n| 无法上网 | 406 |\n| 工单提单 | 119 |\n| IPOE(组播)无法连接 | 105 |\n| 业务割接 | 83 |\n| 宽带解绑 | 78 |\n| 注册卡20%（PON灯闪）-新装 | 68 |\n(注：此表仅列出部分工单数量较多的问题类型，当日总工单量为1500单)\n\n【问题1】结合背景资料和表1，分析并明确指出当前装维工单中存在的至少两个主要问题点。\n【问题2】（2）针对您识别的主要问题点，提出至少两项具体的优化策略，以提升问题工单的处理效率和质量。 ",
+        "answer": " 【问题1答案】问题点一：智能化处理水平偏低，人工处理占比较高。智能助理处理了513单，占比34.2%，而人工处理仍占较大比例（65.8%）。这意味着大量工单仍依赖人工处理，不仅对综调支撑人员造成压力，也可能影响现场装维工程师解决问题的效率。问题点二：网络连接故障占比过高。“无法上网”工单406单，约占总量的27.1%，且与IPOE组播故障（7.0%）合计达34.1%，表明网络连通性与组播服务稳定性是最主要的技术痛点。问题点三：部分流程与特定环节问题频发。“工单提单”（7.9%）、“业务割接”、“宽带解绑”、“新装注册卡顿”等问题数量不少，反映系统或流程存在瓶颈。\n【问题2答案】（2）策略一：强化AI装维助手能力。 针对“无法上网”、“IPOE组播无法连接”等高频现场问题，重点升级装维智能助理。增加常见故障的智能诊断步骤、标准化处理流程建议和知识库快速检索功能。策略二：聚焦高发问题进行专项治理，优化网络质量与业务流程。①网络连接问题深度治理： 对“无法上网”和“IPOE组播无法连接”工单进行根因分析（区分区域、设备、用户原因等），实施精准的网络优化、设备参数调整或预防性维护，从源头减少此类故障发生。②关键流程节点优化： 针对“业务割接”、“宽带解绑”、“新装注册卡顿”等问题，审视并优化相关业务流程、操作规范和系统支撑能力，减少操作错误或流程阻塞点，提升处理效率和用户体验。"
+    }
+]
